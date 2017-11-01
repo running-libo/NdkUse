@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.ndkconfig.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@mipmap/filter_thumb_calm"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="java处理"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_jni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jni处理"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
